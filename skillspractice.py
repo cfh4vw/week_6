@@ -258,3 +258,6 @@ print(f"The total variance explained is {var_ex}.")
 # Silhouette score
 cu.calculate_silhouette_scores(df_fin, random_state=42)
 # %%
+# Now i will select my players based on the 3d visualization. 
+# We want players with low turnovers, high total rebounds, and 
+# high minutes played, all with a low enough salary that we can get them on our team. 
